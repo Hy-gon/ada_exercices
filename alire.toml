@@ -1,0 +1,12 @@
+name = "ada_exercices"
+description = "Ada exercices"
+version = "0.1.0-dev"
+
+authors = ["Hy-gon"]
+maintainers = ["Hy-gon <mickael.lemieux@outlook.com>"]
+maintainers-logins = ["Hy-gon"]
+licenses = "MIT"
+website = ""
+tags = []
+executables = ["main"]
+
