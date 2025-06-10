@@ -86,8 +86,6 @@ ada_exercices/
 20. **Projets intégrateurs** - Cas d'usage industriels et temps réel
 21. **Exercices de compilation et déploiement** - Build systems, packaging
 
-> 📖 **Pour les détails complets** : Consultez le [guide PDF](ada_exercises.pdf) qui contient tous les énoncés et explications détaillées pour ces **21 chapitres**.
-
 ## 🚀 Comment utiliser ce guide
 
 ### 1. **Installation avec Alire**
@@ -119,38 +117,6 @@ alr exec -- ex01_1
 ./bin/ex01_1
 ```
 
-## 🔧 Exemples de progression
-
-### 📝 **Chapitre 1 - Fondamentaux**
-```ada
--- Hello World en Ada
-with Ada.Text_IO; use Ada.Text_IO;
-
-procedure Hello is
-begin
-   Put_Line("Bonjour le monde Ada !");
-end Hello;
-```
-
-### 🔄 **Chapitre 11 - Tâches et concurrence**
-```ada
--- Exemple de tâche simple
-task type Worker is
-   entry Start;
-   entry Stop;
-end Worker;
-
-task body Worker is
-begin
-   accept Start;
-   -- Traitement concurrent
-   accept Stop;
-end Worker;
-```
-
-### 🎯 **Chapitres 18-21 - Projets intégrateurs**
-Applications complètes utilisant tous les concepts : calculatrices avancées, gestionnaires de fichiers, systèmes temps réel, etc.
-
 ## 📖 Ressources additionnelles
 
 - 📚 [Documentation officielle Ada](https://www.adacore.com/documentation)
@@ -158,6 +124,7 @@ Applications complètes utilisant tous les concepts : calculatrices avancées, g
 - 🛠️ [Alire - Gestionnaire de paquets Ada](https://alire.ada.dev/)
 - 📖 [GNAT User's Guide](https://docs.adacore.com/gnat_ugn-docs/html/gnat_ugn.html)
 - 💻 [Extension VS Code pour Ada](https://marketplace.visualstudio.com/items?itemName=AdaCore.ada)
+- 📖 [Awesome-Ada](https://github.com/ohenley/awesome-ada)
 
 ## 🔧 Commandes Alire utiles
 
@@ -191,23 +158,7 @@ Les contributions sont les bienvenues ! N'hésitez pas à :
 - 🔧 Optimiser la configuration Alire
 - 🎯 Ajouter des projets intégrateurs avancés
 
-### Pour contribuer :
-1. Fork le projet
-2. Créez une branche pour votre fonctionnalité (`git checkout -b feature/chapitre-X`)
-3. Commitez vos changements (`git commit -am 'Ajout exercices chapitre X'`)
-4. Push vers la branche (`git push origin feature/chapitre-X`)
-5. Créez une Pull Request
 
 ## 📄 Licence
 
 Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
----
-
-<div align="center">
-
-**⭐ N'oubliez pas de mettre une étoile si ce guide vous a été utile ! ⭐**
-
-*Fait avec ❤️ pour la communauté Ada*
-
-</div>
