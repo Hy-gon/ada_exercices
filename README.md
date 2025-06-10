@@ -148,17 +148,6 @@ alr clean
 alr show
 ```
 
-## 🤝 Contribution
-
-Les contributions sont les bienvenues ! N'hésitez pas à :
-- ✨ Proposer de nouveaux exercices pour les **21 chapitres**
-- 📝 Améliorer les explications existantes
-- 🐛 Signaler des erreurs dans le code ou la documentation
-- 💡 Suggérer des améliorations au guide PDF
-- 🔧 Optimiser la configuration Alire
-- 🎯 Ajouter des projets intégrateurs avancés
-
-
 ## 📄 Licence
 
 Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
