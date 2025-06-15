@@ -1,5 +1,6 @@
 with ex01_1; with ex01_2;
 with ex01_3; with ex01_4;
+with ex01_5;
 with Ada.Text_IO; use Ada.Text_IO;
 
 procedure Main is
@@ -18,6 +19,7 @@ begin
    Afficher_Exercice ("01.2", ex01_2'Access);
    Afficher_Exercice ("01.3", ex01_3'Access);
    Afficher_Exercice ("01.4", ex01_4'Access);
+   Afficher_Exercice ("01.5", ex01_5'Access);
    Put_Line ("Fin des exercices.");
    New_Line;
 end Main;
